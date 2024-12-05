@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 0 elements to &apos;resppop&apos;&#x0D;&#x0A;- Destination element: &apos;resppop&apos;" description="Copy compilation units" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1606471355870" target="/GekoWeb/src/main/webapp/WEB-INF/views/geko/programmazione/resppop" units="0" version="1.0"/>
+</session>

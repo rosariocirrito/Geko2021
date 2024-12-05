@@ -1,0 +1,113 @@
+1488445616713	Move compilation unit
+1488445627012	Move compilation unit
+1488451344427	Delete elements
+1488451355851	Delete element
+1488452895777	Delete element
+1488452901790	Delete element
+1488455369705	Move compilation unit
+1488456937272	Move compilation unit
+1488457047931	Move compilation unit
+1488457333632	Rename type 'IncaricoQryService'
+1488465017364	Rename package 'it.sicilia.regione.gekoddd.organiko.domain.enity'
+1488465045363	Move compilation units
+1488465096003	Move compilation units
+1488465126704	Move compilation unit
+1488465146957	Rename package 'it.sicilia.regione.gekoddd.domain.repository'
+1488465175252	Rename package 'it.sicilia.regione.gekoddd.domain.entity.validator'
+1488465213182	Move compilation unit
+1488465377975	Rename package 'it.sicilia.regione.gekoddd.infrastructure'
+1488465531712	Delete element
+1488465536369	Delete element
+1488465540074	Delete element
+1488466110719	Move compilation unit
+1488466216514	Rename package 'it.sicilia.regione.gekoddd.organiko.domain.repository'
+1488466240940	Move compilation units
+1488466254585	Delete element
+1488466266775	Rename package 'it.sicilia.regione.gekoddd.domain.service'
+1488466361783	Move compilation units
+1488469840639	Delete element
+1488469849230	Delete element
+1488528629165	Move compilation units
+1488528693812	Move compilation units
+1488528736665	Rename package 'it.sicilia.regione.geko.acl'
+1488528756087	Move compilation units
+1488528764995	Delete element
+1488529638437	Move compilation units
+1488529719214	Move compilation units
+1488529764532	Move compilation units
+1488529966240	Move compilation units
+1488529975257	Delete element
+1488529980842	Delete element
+1488529985880	Delete element
+1488529991762	Delete element
+1488530107592	Move compilation units
+1488530139213	Move compilation units
+1488530147668	Delete element
+1488530159587	Delete element
+1488530179399	Rename package 'it.sicilia.regione.geko.rendicontazione.application'
+1488530207167	Rename package 'it.sicilia.regione.geko.rendicontazione.domain.entity'
+1488530253499	Rename package 'it.sicilia.regione.geko.rendicontazione.domain.repository'
+1488530271923	Rename package 'it.sicilia.regione.geko.rendicontazione.domain.model.validator'
+1488530286009	Rename package 'it.sicilia.regione.gekoddd.geko.rendicontazione.domain.model.validator'
+1488530312467	Rename package 'it.sicilia.regione.geko.rendicontazione.domain.service'
+1488530340188	Rename package 'it.sicilia.regione.geko.rendicontazione.infrastructure'
+1488530353199	Rename package 'it.sicilia.regione.geko.valutazione.application'
+1488530364119	Rename package 'it.sicilia.regione.geko.valutazione.domain.model'
+1488530375788	Rename package 'it.sicilia.regione.geko.valutazione.domain.model.validator'
+1488530387862	Rename package 'it.sicilia.regione.geko.valutazione.domain.repository'
+1488530414288	Rename package 'it.sicilia.regione.geko.valutazione.domain.service'
+1488530428110	Rename package 'it.sicilia.regione.geko.valutazione.infrastructure'
+1488530728925	Delete element
+1488530740594	Delete element
+1488530795194	Rename package 'it.sicilia.regione.gekoddd.geko.programmazione.domain.validator'
+1488530812432	Move compilation unit
+1488530836222	Delete element
+1488530839545	Delete element
+1488530843492	Delete element
+1488530847096	Delete element
+1488530852493	Delete element
+1488532933942	Move compilation unit
+1488533467778	Rename package 'it.sicilia.regione.session'
+1488539626933	Copy file
+1488540730404	Rename package 'it.sicilia.regione.controllers.geko.programmazione.controller'
+1488541403860	Rename package 'it.sicilia.regione.gekoddd.geko.programmazione.validator'
+1488542013642	Rename package 'it.sicilia.regione.security.acl'
+1488542029174	Rename package 'it.sicilia.regione.security.acl.model'
+1488542046685	Rename package 'it.sicilia.regione.security.model'
+1488542060540	Rename package 'it.sicilia.regione.security.infrastructure'
+1488542075712	Rename package 'it.sicilia.regione.security.domain.services'
+1488542092953	Rename package 'it.sicilia.regione.security.domain.repository'
+1488542113323	Rename package 'it.sicilia.regione.security.domain.model.validator'
+1488542126723	Rename package 'it.sicilia.regione.security.domain.model'
+1488542139470	Rename package 'it.sicilia.regione.security.application'
+1488542807232	Rename package 'it.sicilia.regione.gekoddd.security.domain.model'
+1488542827336	Rename package 'it.sicilia.regione.gekoddd.security.domain.model.validator'
+1488543814175	Rename package 'it.sicilia.regione.gekoddd.geko.programmazione.controller'
+1488543858555	Rename package 'it.sicilia.regione.controllers.geko.programmazione.manager'
+1488543896738	Rename package 'it.sicilia.regione.controllers.geko.programmazione.oiv'
+1488543956030	Rename package 'it.sicilia.regione.controllers.geko.rendicontazione.manager'
+1488544197959	Rename package 'it.sicilia.regione.controllers.geko.rendicontazione.controller'
+1488544233808	Rename package 'it.sicilia.regione.controllers.geko.supercontroller'
+1488544257110	Rename package 'it.sicilia.regione.controllers.geko.valutazione.controller'
+1488544289023	Rename package 'it.sicilia.regione.controllers.geko.valutazione.manager'
+1488544304446	Rename package 'it.sicilia.regione.controllers.geko.valutazione.oiv'
+1488544329841	Rename package 'it.sicilia.regione.controllers.geko.valutazione.web.manager'
+1488544348703	Rename package 'it.sicilia.regione.controllers.geko.valutazione.web.oiv'
+1488544377699	Rename package 'it.sicilia.regione.controllers.organiko.administrator'
+1488544409342	Rename package 'it.sicilia.regione.controllers.organiko.superadministrator'
+1488544433236	Rename package 'it.sicilia.regione.controllers.security.administrator'
+1488544459454	Rename package 'it.sicilia.regione.controllers.security.superadministrator'
+1488545910846	Delete element
+1488545914931	Delete element
+1488545919624	Delete element
+1488549709828	Rename package 'it.sicilia.regione.gekoddd.organiko.domain.service'
+1488549987835	Move compilation unit
+1488552889056	Rename package 'it.sicilia.regione.gekoddd.geko.valutazione.domain.model'
+1488552901657	Rename package 'it.sicilia.regione.gekoddd.geko.valutazione.domain.model.validator'
+1488555882932	Copy file
+1488557117865	Copy file
+1488557130922	Rename resource 'home.html'
+1488557557074	Copy file
+1488561441772	Copy file
+1488563150712	Delete element
+1488563160618	Rename resource 'sintesiPianificazioneAnnoController2.html'

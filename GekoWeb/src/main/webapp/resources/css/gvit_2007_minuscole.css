@@ -1,0 +1,265 @@
+#tdcomodo {
+	font-size: 5px;
+	line-height: 1;
+	}
+
+#tdcontenuto, #tdnavigazione, #tdcoda {
+	font-size: 75%; 
+	line-height: 1.5; 
+	}
+
+#tdcorrelati, #tdstampabile {
+	font-size: 92%;
+	} 
+
+
+
+#tdcomodo, #tdnavigazione{
+	width: 180px; 
+	}
+
+
+#tddestra {
+	width: 234px;
+	}
+
+#dvdestra {
+	padding-left: 18px;
+	}
+	
+#dvcontenuto {
+	padding-left: 18px;
+	}
+
+#bodyStampa #dvcontenuto {
+	padding-left: 18px;
+	padding-right: 18px;
+	}
+
+
+#tbltestata { background: #fff url(/images/layout/sfondi/back_testata.jpg) right top repeat-x;}
+
+#tdnavigazione { background: #c7d5da url(/images/layout/sfondi/back_barraSX.jpg) right top repeat-x; }
+
+#tdcoda { background:#fff url(/images/layout/sfondi/back_footer.jpg) right top repeat-x; }
+
+
+#dvcoda {
+	padding-top: 12px;
+	}
+	
+#bodyInterno #dvnavigazione {
+	margin-top: 18px;
+	}
+
+
+
+
+
+#tdstampabile p, #dvpagine p { 
+	text-align: right;}
+	
+
+/* Link  */
+
+#tdcontenuto a:link {color: #585858; font-weight: bold; text-decoration: none;}
+#tdcontenuto a:visited {color: #585858; font-weight: bold; text-decoration: none;}
+#tdcontenuto a:focus {color: #800001; font-weight: bold; text-decoration: underline;}
+#tdcontenuto a:hover {color: #800001; font-weight: bold; text-decoration: underline;}
+#tdcontenuto a:active {color: #800001; font-weight: bold; text-decoration: underline;}
+ 
+#dvtestapagina a:link, .dvtesto a:link, .dvSecondoTesto a:link {text-decoration: underline;}
+#dvtestapagina a:visited, .dvtesto a:visited, .dvSecondoTesto a:visited{text-decoration: 	underline;}
+
+#dvtestapagina h1 a:link, #dvtestapagina h2 a:link, #dvtestapagina  h3 a:link, #dvtestapagina  h4 a:link, #dvtestapagina h5 a:link, #dvtestapagina  h6 a:link  {text-decoration: none;}
+#dvtestapagina  h1 a:visited, #dvtestapagina  h2 a:visited, #dvtestapagina h3 a:visited, #dvtestapagina h4 a:visited, #dvtestapagina h5 a:visited, #dvtestapagina h6 a:visited {text-decoration: none;}
+#dvtestapagina h1 a:focus, #dvtestapagina h2 a:focus, #dvtestapagina  h3 a:focus, #dvtestapagina  h4 a:focus, #dvtestapagina h5 a:focus, #dvtestapagina  h6 a:focus  {text-decoration: underline;}
+#dvtestapagina  h1 a:hover, #dvtestapagina  h2 a:hover, #dvtestapagina h3 a:hover, #dvtestapagina h4 a:hover, #dvtestapagina h5 a:hover, #dvtestapagina h6 a:hover {text-decoration: underline;}
+#dvtestapagina  h1 a:active, #dvtestapagina  h2 a:active, #dvtestapagina h3 a:active, #dvtestapagina h4 a:active, #dvtestapagina h5 a:active, #dvtestapagina h6 a:active {text-decoration: underline;}
+
+
+.dvtesto h1 a:link, .dvtesto h2 a:link, .dvtesto  h3 a:link, .dvtesto  h4 a:link, .dvtesto h5 a:link, .dvtesto  h6 a:link  {text-decoration: none;}
+.dvtesto  h1 a:visited, .dvtesto  h2 a:visited, .dvtesto h3 a:visited, .dvtesto h4 a:visited, .dvtesto h5 a:visited, .dvtesto h6 a:visited {text-decoration: none;}
+.dvtesto h1 a:focus, .dvtesto h2 a:focus, .dvtesto  h3 a:focus, .dvtesto  h4 a:focus, .dvtesto h5 a:focus, .dvtesto  h6 a:focus  {text-decoration: underline;}
+.dvtesto  h1 a:hover, .dvtesto  h2 a:hover, .dvtesto h3 a:hover, .dvtesto h4 a:hover, .dvtesto h5 a:hover, .dvtesto h6 a:hover {text-decoration: underline;}
+.dvtesto  h1 a:active, .dvtesto  h2 a:active, .dvtesto h3 a:active, .dvtesto h4 a:active, .dvtesto h5 a:active, .dvtesto h6 a:active {text-decoration: underline;}
+
+.dvSecondoTesto h1 a:link, .dvSecondoTesto h2 a:link, .dvSecondoTesto  h3 a:link, .dvSecondoTesto  h4 a:link, .dvSecondoTesto h5 a:link, .dvSecondoTesto  h6 a:link  {text-decoration: none;}
+.dvSecondoTesto  h1 a:visited, .dvSecondoTesto  h2 a:visited, .dvSecondoTesto h3 a:visited, .dvSecondoTesto h4 a:visited, .dvSecondoTesto h5 a:visited, .dvSecondoTesto h6 a:visited {text-decoration: none;}
+.dvSecondoTesto h1 a:focus, .dvSecondoTesto h2 a:focus, .dvSecondoTesto  h3 a:focus, .dvSecondoTesto  h4 a:focus, .dvSecondoTesto h5 a:focus, .dvSecondoTesto  h6 a:focus  {text-decoration: underline;}
+.dvSecondoTesto  h1 a:hover, .dvSecondoTesto  h2 a:hover, .dvSecondoTesto h3 a:hover, .dvSecondoTesto h4 a:hover, .dvSecondoTesto h5 a:hover, .dvSecondoTesto h6 a:hover {text-decoration: underline;}
+.dvSecondoTesto  h1 a:active, .dvSecondoTesto  h2 a:active, .dvSecondoTesto h3 a:active, .dvSecondoTesto h4 a:active, .dvSecondoTesto h5 a:active, .dvSecondoTesto h6 a:active {text-decoration: underline;}
+
+/* Fine link */
+
+/* Immagini */
+
+.dvImmagineColonnaDestra, .dvimgnavdx {
+	margin-bottom: 14px;
+	text-align: center;
+	}
+	
+#dvFotoPresidente {
+	margin-top: 18px;
+	margin-bottom: 14px; 
+	}
+	
+
+
+/* Intestazioni */
+
+#bodyInterno #dvdestra h2{
+	padding-left: 18px;
+	font-weight: bold;
+	}
+
+#tdnavigazione h2 {
+	font-weight: bold; 
+	background: #85b4c4 url(/images/layout/icone/icon7.gif) right no-repeat;
+	padding-left: 9px;
+	}
+
+#tdnavigazione h2#presidente {
+	background: transparent url(/images/layout/FrecceDestra.gif) no-repeat 0 5px;
+	padding-left: 14px;
+	margin-left: 9px;
+	}
+
+
+/* Liste  */
+
+
+#tddestra ul {
+	margin-left: 9px;
+	}
+
+#tdnavigazione ul {
+	margin-left: 9px;
+	margin-right: 2px;
+	}
+
+#tdcoda ul.listaOrizzontale {
+	text-align: center;
+	}
+
+
+
+/* Tabelle */
+
+
+
+#trprimagrigia th, #trprimagrigia td {
+		background-color: #E6E6E6;
+        color: #000;
+		}
+						 
+#trprimaceleste th, #trprimaceleste td {background-color: #E6E6E6;
+                 color: #000;}
+
+.trgrigioscuro th, .trgrigioscuro td {background-color: #F2F2F2;
+             color: #000;}
+						 
+.trgrigiochiaro th, .trgrigiochiaro td {background-color: #F8F8F8;
+             color: #000;}
+			 
+.trverdechiaro th, .trverdechiaro td {background-color: #C0FFC0;
+             color: #000;}
+			 
+.trrosa th, .trrosa td {background-color: #F7E6D5;
+          color: #000;}	 
+						 
+.trcelestescuro th, .trcelestescuro td {background-color: #F2F2F2;
+							  color: #000;}
+						 
+.trcelestechiaro th, .trcelestechiaro td {background-color: #F8F8F8;
+							  color: #000;}
+								
+.tblgrigia th {border-top: 1px solid #FFF; padding: 3px; font-weight: bold;}			
+				
+.tblgrigia td {border-top: 1px solid #FFF; padding: 3px;}	
+
+#trprimagrigia th {border-top: 1px solid #FFF;}							
+								
+.tblceleste td {border-top: 1px solid #FFF; padding: 3px;}
+
+.tblceleste th {border-top: 1px solid #FFF; padding: 3px;}
+
+#trprimaceleste th {border-top: 1px solid #FFF;}
+
+.trrigaceleste th, .trrigaceleste td {background-color: #E6E6E6; color: #000;} /* riga generica interna anche ad altre tabelle */
+
+.tdDatiCoda {text-align: left;  padding: 0;} /* serve per dare lo spessore alla riga di coda che non contiene testo */
+						 
+.dvdaticoda {font-size: 5px; width: 100%;} 
+
+
+.tdgiustificato {text-align: justify;}
+				 
+.tdasinistra { text-align: left;}
+
+.tdfonte { text-align: left;}
+				 
+.tdadestra {text-align: right;}
+				 
+.tdcentrato {text-align: center;}
+	 													
+.tdlink {text-align: right; vertical-align: bottom;} /* posizionamento della immagine a tre caratteri */ 
+														
+.thlink {padding: .3em;} /* per la intestazione della colonna dei link */
+							
+/* paginazione */
+								
+#tdpagina {text-align: left;
+		   font-size: 92%;
+		   padding: 18px 0;
+		   }
+							
+#dvpagina { border-top: 1px solid #E6E6E6;
+			border-bottom: 1px solid #E6E6E6;}
+							  
+#tdpagine {text-align: right;
+			font-size: 92%;
+			padding: 18px 0;}
+			
+#dvpagine {	border-top: 1px solid #E6E6E6;
+			border-bottom: 1px solid #E6E6E6;}
+
+/* intestazioni */
+
+
+#bodyHome #dvdestra h1 {background-color: #c6dae4;}
+
+#tdtestapagina h1 {background: #e5e5e7  url(/images/layout/icone/icon7.gif) no-repeat 4px 4px;}
+#bodyInterno #dvdestra h2, #bodyInterno #dvdestra h3 {background: #e5e5e7  url(/images/layout/icone/icon7.gif) no-repeat 4px 4px;}
+
+#tdcentrale h2 {color:#365778 }
+
+#tdnavigazione h2 {
+	font-weight: bold; 
+	background: #85b4c4 url(/images/layout/icone/icon6.gif)  no-repeat 5px 4px;
+	padding-left: 19px;
+	}
+
+#tdnavigazione h2#presidente {
+	background: transparent url(/images/layout/icone/icon5.png) no-repeat 0 5px;
+	padding-left: 14px;
+	margin-left: 9px;
+	}
+
+
+
+
+/* Aggiustamenti per IE */
+
+
+
+* html #bodyInterno #dvnavigazione {
+	margin-top: 15px;
+	}
+
+	
+*:first-child+html #bodyInterno #dvnavigazione {
+	margin-top: 15px;
+	}
+	
+	

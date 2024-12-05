@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;modifyValutazioneIncaricoController.jsp&apos; to &apos;controller&apos;&#x0D;&#x0A;- Original project: &apos;GekoWeb&apos;&#x0D;&#x0A;- Destination element: &apos;controller&apos;&#x0D;&#x0A;- Original element: &apos;modifyValutazioneIncaricoController.jsp&apos;" description="Copy file" element1="src/main/webapp/WEB-INF/views/geko/valutazione/controller/modifyValutazioneIncaricoController.jsp" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1501840045007" target="/GekoWeb/src/main/webapp/WEB-INF/views/geko/valutazione/controller" units="0" version="1.0"/>
+</session>

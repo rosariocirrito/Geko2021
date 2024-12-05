@@ -1,0 +1,23 @@
+List<AreaStrategica> listAreeStrategiche = areaStrategicaQryServizi.findByAnno(anno);
+    	//
+        for (AreaStrategica area : listAreeStrategiche){
+        	List<ObiettivoStrategico> lstobjstr = objStratServizi.findByAreaStrategicaAndAnno(area, anno);
+        	area.setObiettiviStrategici(lstobjstr);
+        	/*
+        	if(!lstobjstr.isEmpty()){
+        		for(ObiettivoStrategico stra : lstobjstr){
+        			if(!stra.getAssociazObiettiviApicali().isEmpty()){
+        				for(AssociazObiettivi assoc : stra.getAssociazObiettiviApicali()){
+            				Obiettivo apicale = assoc.getApicale();
+            				IncaricoGeko inc = fromOrganikoServizi.findIncaricoById(apicale.getIncaricoID());
+            				apicale.setResponsabile(inc.getDenominazioneDipartimento()
+            						+" / "+inc.getDenominazioneStruttura()+ " - "+inc.getResponsabile()); 
+            			}
+        			}
+        		}
+        	}	
+        	*/
+        }
+        //
+    	model.addAttribute("listAreeStrategiche", listAreeStrategiche); 
+        model.addAttribute("anno", anno);

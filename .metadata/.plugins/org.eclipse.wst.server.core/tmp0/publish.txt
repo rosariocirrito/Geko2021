@@ -1,0 +1,5 @@
+#Tomcat publish data
+#Wed Mar 01 11:37:41 CET 2017
+org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\Cirrito\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework\\spring-web\\4.3.6.RELEASE\\8b8bf8fc6ed4acd5ae0baa6179f1cccc52aaa9aa\\spring-web-4.3.6.RELEASE.jar=D\:\\sts-bundle\\pivotal-tc-server-developer-3.2.2.RELEASE\\base-instance\\wtpwebapps\\gekoWebDDD\\WEB-INF\\lib\\spring-web-4.3.6.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\Cirrito\\.m2\\repository\\org\\springframework\\spring-web\\4.1.6.RELEASE\\spring-web-4.1.6.RELEASE.jar=D\:\\sts-bundle\\pivotal-tc-server-developer-3.2.2.RELEASE\\base-instance\\wtpwebapps\\GekoDDD\\WEB-INF\\lib\\spring-web-4.1.6.RELEASE.jar
+org.eclipse.jst.jee.server\:GekoDDD=D\:\\sts-bundle\\pivotal-tc-server-developer-3.2.2.RELEASE\\base-instance\\wtpwebapps\\GekoDDD

@@ -1,0 +1,24 @@
+1543835160544	Copy compilation unit
+1543835184132	Rename type 'Outcome'
+1543835629961	Copy compilation unit
+1543835659352	Rename type 'OutcomeRepository'
+1543835701191	Copy compilation unit
+1543835732157	Rename type 'OutcomeValidator'
+1543835854680	Copy compilation unit
+1543835909498	Rename type 'OutcomeCmdService'
+1543836011522	Copy compilation unit
+1543836035406	Rename type 'OutcomeServiceCmdImpl'
+1543838553050	Copy compilation unit
+1543838575436	Rename type 'SuperGabOutcomeController'
+1543838964984	Copy compilation unit
+1543838993282	Rename type 'SuperGabinettoProgrammazioneService'
+1543839086789	Delete element
+1543839115821	Move compilation unit
+1543839132637	Move compilation unit
+1543839834202	Rename type 'SuperGabinettoProgrammazioneService'
+1543839854950	Rename type 'SuperGabinettoProgrammazioneServiceImpl'
+1543840128855	Copy files
+1543840151366	Rename resource 'formOutcomeCreaSuperGabinetto.jsp'
+1543840163846	Rename resource 'formOutcomeUpdateSuperGabinetto.jsp'
+1543920143152	Copy compilation unit
+1543920306282	Rename package 'it.sicilia.regione.gekoddd.geko.programmazione.infrastructure.risultatteso'

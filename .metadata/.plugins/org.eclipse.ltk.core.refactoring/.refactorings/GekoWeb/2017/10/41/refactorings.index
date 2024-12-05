@@ -1,0 +1,38 @@
+1507637956522	Copy file
+1507641483168	Copy compilation unit
+1507641510416	Rename type 'OivProgrListController'
+1507641967856	Copy file
+1507641989909	Rename resource 'listPianificazioneIncaricoApicaleOiv.jsp'
+1507642317154	Copy file
+1507642333989	Rename resource 'listRendicontazioneIncaricoApicaleOiv.jsp'
+1507642469863	Copy compilation unit
+1507642500027	Rename type 'OivRendListController'
+1507726025051	Copy compilation unit
+1507726165105	Copy compilation unit
+1507726494312	Copy compilation unit
+1507726535231	Rename type 'ControllerValutListController'
+1507726995873	Copy file
+1507727039132	Rename resource 'listValutazioniDipartimentoController.jsp'
+1507727572434	Copy compilation unit
+1507727588221	Rename type 'ControllerValutazioneController'
+1507727783019	Copy file
+1507727834047	Rename resource 'formPesiComportOrganEditController.jsp'
+1507728039608	Copy file
+1507728083725	Rename resource 'formValutComportOrganEditController.jsp'
+1507730655988	Copy file
+1507730678810	Rename resource 'formValutazioneCreateController.jsp'
+1507732753124	Copy file
+1507732807478	Rename resource 'modifyValutazioniDipartimentoController.jsp'
+1507800303921	Rename resource 'visualizzaValutazioneIncaricoApicaleSepicos.jsp'
+1507800345995	Rename resource 'modifyValutazioneIncaricoApicaleSepicos.jsp'
+1507802608998	Copy file
+1507802656282	Rename resource 'formAzioneCompletamentoController.jsp'
+1507802971051	Copy compilation unit
+1507802997603	Rename type 'ControllerAzioniController'
+1507805316436	Delete element
+1507807243107	Copy file
+1507807264591	Rename resource 'formPesoPianoLavoroEditController.jsp'
+1507809000039	Copy file
+1507810608465	Rename resource 'formValutPianoLavoroEditController.jsp'
+1507811142283	Copy compilation unit
+1507811165537	Rename type 'ControllerValutPdfController'

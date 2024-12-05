@@ -1,0 +1,17 @@
+.testata {
+                background: lightblue;
+                color: cornflowerblue;
+          }
+            
+#sezione {
+                background: lightgray;
+            }
+
+#titolo-lista {
+                background: navy;
+                color: orange;
+                font-size: 24px;
+                font-family: "Palatino Linotype";
+                border: 2px solid black;
+            }
+            

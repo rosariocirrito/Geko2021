@@ -1,0 +1,368 @@
+body {
+	font-size: 100%;
+	font-family: Arial, sans-serif;
+}
+
+#wrapper {
+	width: 1000px;
+        background-color: #f1f1f1;
+	border: none;
+	border-radius: 2px;
+	margin-bottom: 12px;
+	overflow: hidden;
+	padding: 0 10px;
+}
+
+#wrapper2 {
+	width: 1000px;
+        background-color: #f1f1f1;
+	border: none;
+	border-radius: 2px;
+	margin-bottom: 12px;
+	overflow: hidden;
+	padding: 0 10px;
+}
+
+#incarico {
+	
+     background-color: gold;
+	border: none;
+	border-radius: 2px;
+	margin-bottom: 12px;
+	overflow: hidden;
+	padding: 0 10px;
+}
+
+#comport {
+	width: 900px;
+        background-color: mediumpurple;
+	border: none;
+	border-radius: 2px;
+	margin-bottom: 12px;
+	overflow: hidden;
+	padding: 0 10px;
+}
+
+#AMMIN_MAN_SUPPORTO {
+	width: 900px;
+        background-color: #f1f1f1;
+	border: none;
+	border-radius: 2px;
+	margin-bottom: 12px;
+	overflow: hidden;
+	padding: 0 10px;
+}
+
+
+#footer {
+	width: 900px;
+        background-color: #f1f1f1;
+	border: none;
+	border-radius: 2px;
+	margin-bottom: 12px;
+	overflow: hidden;
+	padding: 0 10px;
+}
+
+h1 {
+    background: navy;
+    color: orange;
+    font-size: 24px;
+    font-family: "Palatino Linotype";
+    border: 2px solid black;
+}
+
+h2 {
+	background-color: #dedede;
+	border-bottom: 1px solid #d4d4d4;
+	border-top: 1px solid #d4d4d4;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px #ccc;
+	color: #fff;
+	font-size: 1.1em;
+	margin: 12px;
+	padding: 0.3em 1em;
+	text-shadow: #9FBEB9 1px 1px 1px;
+	text-transform: uppercase;
+}
+
+h2.account 				{ background-color: #0B5586; }
+h2.address 				{ background-color: #4494C9; }
+h2.public-profile 		{ background-color: #377D87; }		
+h2.emails 				{ background-color: #717F88; }
+
+
+h3 {
+	background-color: #dedede;
+	border-bottom: 1px solid #d4d4d4;
+	border-top: 1px solid #d4d4d4;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px #ccc;
+	color: #000080;
+	font-size: 1.1em;
+	margin: 12px;
+	padding: 0.3em 1em;
+	
+	text-transform: uppercase;
+}
+
+h4.responsabile			{ background-color: #717F88; }
+
+h4 {
+	background-color: #dedede;
+	border-bottom: 1px solid #d4d4d4;
+	border-top: 1px solid #d4d4d4;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px #ccc;
+	color: #000080;
+	font-size: 0.9em;
+	margin: 12px;
+	padding: 0.3em 1em;
+}
+h4.account 	{
+	color: #fff;
+	background-color: #0B5586; 
+	}
+h4.comandi	{ 
+	color: #fff;
+	background-color: #377D00; 
+	}
+
+h5 {
+	background-color: #dedede;
+	border-bottom: 1px solid #d4d4d4;
+	border-top: 1px solid #d4d4d4;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px #ccc;
+	color: #000080;
+	margin: 12px;
+	padding: 0.3em 1em;
+}
+
+legend {
+	background-color: #dedede;
+	border-top: 1px solid #d4d4d4;
+	border-bottom: 1px solid #d4d4d4;
+	-moz-box-shadow: 3px 3px 3px #ccc;
+	-webkit-box-shadow: 3px 3px 3px #ccc;
+	box-shadow: 3px 3px 3px #ccc;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	padding: 0.3em 1em;
+}
+
+fieldset {
+	background-color: #f1f1f1;
+	border: none;
+	border-radius: 2px;
+	margin-bottom: 12px;
+	overflow: hidden;
+	padding: 0 10px;
+}
+
+ul {
+	background-color: #fff;
+	border: 1px solid #eaeaea;
+	list-style: none;
+	margin: 12px;
+	padding: 12px;
+}
+
+li {
+	margin: 0.5em 0;
+}
+
+label {
+	display: inline-block;
+	padding: 3px 6px;
+	text-align: right;
+	width: 150px;
+	vertical-align: top;
+}
+
+input, select, button {
+	font: inherit;
+}
+
+.small {
+	width: 75px;
+}
+
+.medium {
+	width: 150px;
+}
+
+.large {
+	width: 250px;
+}
+
+textarea {
+	font: inherit;
+	width: 500px;
+}
+
+
+.instructions {
+	font-size: 75%;
+	padding-left: 167px;
+	font-style: italic;
+}
+
+.create_profile {
+	background-color: #DA820A;
+	border: none;
+	border-radius: 4px;
+	box-shadow: 2px 2px 2px #333;
+	cursor: pointer;
+	color: #fff;
+	margin: 12px;
+	padding: 8px;
+	text-shadow: 1px 1px 0px #CCC;
+}
+
+.radios {
+	background: none;
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+.radios ul {
+	border: none;
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.radios li {
+	margin: 0;
+	display: inline-block;
+}
+
+.radios label {
+	margin-right: 25px;
+	width: auto;
+}
+
+.radios input {
+	margin-top: 3px;
+}
+
+
+.checkboxes label {
+	text-align: left;
+	width: 475px;
+}
+
+button * {
+	vertical-align: middle;
+}
+
+h2.titolo1		{ background-color: #0B5586; }
+h2.titolo2 		{ background-color: #4494C9; }
+h2.titolo3		{ background-color: #377D87; }	
+
+footer {
+	background-color: #f1f1f1;
+	border: none;
+	border-radius: 2px;
+	margin-bottom: 12px;
+	overflow: hidden;
+	padding: 0 10px;
+}
+
+body {
+	font: 100% arial, helvetica, serif;
+}
+
+table {
+	border-collapse: collapse;
+
+	-webkit-box-shadow: 3px 3px 7px #055584;
+	-moz-box-shadow: 3px 3px 7px #055584;
+	box-shadow: 3px 3px 7px #055584;
+        
+        width: 850px;
+}
+
+#tableObiettivi {
+	border-collapse: collapse;
+
+	-webkit-box-shadow: 3px 3px 7px #055584;
+	-moz-box-shadow: 3px 3px 7px #055584;
+	box-shadow: 3px 3px 7px #055584;
+        
+        width: 990px;
+}
+#tableAzioni {
+	border-collapse: collapse;
+
+	-webkit-box-shadow: 3px 3px 7px #055584;
+	-moz-box-shadow: 3px 3px 7px #055584;
+	box-shadow: 3px 3px 7px #055584;
+        
+        width: 800px;
+}
+#tableComport {
+	border-collapse: collapse;
+
+	-webkit-box-shadow: 3px 3px 7px #055584;
+	-moz-box-shadow: 3px 3px 7px #055584;
+	box-shadow: 3px 3px 7px #055584;
+        
+        width: 900px;
+}
+
+table.table-buttons {
+	border-collapse: collapse;
+
+	
+        
+        width: 900px;
+}
+
+caption {
+	color: #055584;
+	font-size: 1.25em;
+	font-weight: bold;
+	margin: 0 0 .5em;
+	text-shadow: 1px 1px 1px #c0e0f2;
+}
+
+td,
+th {
+	font-size: .8125em;
+	border: 1px solid #000;
+	padding: .75em;	
+}
+
+th {
+	background: #055584;
+	color: #c0e0f2;
+}
+th.prod  {
+	background: #05aaff;
+	color: #c0e0f2;
+}
+td {
+	background: #c0e0f2;
+	width: 9em;
+}
+
+thead th:first-child {
+	background: #1a628c;
+}
+
+thead th {
+	border-bottom: 3px solid #000;
+	text-transform: uppercase;
+}
+
+#titolo-lista {
+    background: navy;
+    color: orange;
+    font-size: 24px;
+    font-family: "Palatino Linotype";
+    border: 2px solid black;
+}

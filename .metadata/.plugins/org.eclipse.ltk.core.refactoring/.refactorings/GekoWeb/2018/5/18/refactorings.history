@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ControllerValutPdfController.java&apos; to &apos;GekoWeb/src/main/java/it.sicilia.regione.gekoddd.geko.valutazione.web.controller&apos;&#x0D;&#x0A;- Original project: &apos;GekoWeb&apos;&#x0D;&#x0A;- Destination element: &apos;GekoWeb/src/main/java/it.sicilia.regione.gekoddd.geko.valutazione.web.controller&apos;&#x0D;&#x0A;- Original element: &apos;it.sicilia.regione.gekoddd.geko.valutazione.web.controller.ControllerValutPdfController.java&apos;" description="Copy compilation unit" destination="/src\/main\/java&lt;it.sicilia.regione.gekoddd.geko.valutazione.web.controller" element1="/src\/main\/java&lt;it.sicilia.regione.gekoddd.geko.valutazione.web.controller{ControllerValutPdfController.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1525342231059" units="1" version="1.0"/>
+</session>

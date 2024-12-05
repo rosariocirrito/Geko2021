@@ -1,0 +1,130 @@
+<%@ include file="/WEB-INF/views/common/includes.jsp" %>
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="ISO-8859-1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+<title>Maschera Creazione Azione</title>
+
+<%@ include file= "/WEB-INF/views/common/bootstrap4_css.jsp" %>
+    
+</head>
+
+<security:authorize access="hasRole('RESP_POP')">
+
+<body>
+<div class="container">
+<div class="row">
+<div class="col-sm-12 col"> 
+        
+<h3>Nuova Azione per ${azione.obiettivo.codice} ${azione.obiettivo.descrizione} </h3>
+
+<form:form class="form-horizontal" role ="form" modelAttribute="azione" method="post">
+    
+
+    
+<fieldset>
+<legend>Dati descrittivi</legend>
+<div class="control-group">
+	<form:label class="control-label" for="denominazione" path="denominazione">Codice</form:label>
+	<div class="controls">
+       	<form:input class="form-control" path="denominazione" placeholder="OPR_1_1" maxlength="16"/>
+        <form:errors path="denominazione" cssClass="error"/> 
+	</div>  
+</div>
+
+<div class="control-group">
+	<form:label class="control-label" for="descrizione" path="descrizione">Descrizione</form:label>
+	<div class="controls">
+       	<form:textarea class="form-control" path="descrizione" placeholder="descrizione estesa max 1000 char" maxlength="1000"/>
+        <form:errors path="descrizione" cssClass="error"/> 
+	</div>        
+</div>
+<div class="control-group">
+	<form:label class="control-label" for="note" path="note">Note</form:label>
+	<div class="controls">
+       	<form:textarea class="form-control" path="note" placeholder="note eventuali max 1000 char" maxlength="1000"/>
+        <form:errors path="note" cssClass="error"/> 
+	</div>        
+</div>
+
+</fieldset> 
+
+<fieldset>
+<legend>Tipologia Azione</legend>
+<div class="control-group">
+	<form:label class="control-label" for="indicatore" path="indicatore">Indicatore</form:label>
+	<div class="controls">
+       	<form:select class="form-control" path="indicatore">
+       		<form:option value="Numero"/>
+            <form:option value="Euro"/>
+            <form:option value="%"/>
+            <form:option value="SI/NO"/>
+        </form:select>    
+        <form:errors path="indicatore" cssClass="error"/> 
+	</div>        
+</div>
+
+<div class="control-group">
+	<form:label class="control-label" for="prodotti" path="prodotti">Valore Obiettivo</form:label>
+	<div class="controls">
+       	<form:input class="form-control" path="prodotti" placeholder="100 - 500.000 - 20% - SI" maxlength="32"/>
+        <form:errors path="prodotti" cssClass="error"/> 
+	</div>  
+</div>
+
+<div class="control-group">
+	<form:label class="control-label" for="scadenza" path="scadenza" placeholder="gg/mm/aa">Scadenza</form:label>
+	<div class="controls">
+       	<form:input path="scadenza" maxlength="10"/>
+       	
+        <form:errors path="scadenza" cssClass="error"/> 
+        
+	</div>  
+</div>
+
+
+<div class="control-group">
+	<form:label class="control-label" for="peso" path="peso">Peso</form:label>
+	<div class="controls">
+       	<form:input class="form-control" path="peso" maxlength="10"/>
+        <form:errors path="peso" cssClass="error"/> 
+	</div>  
+</div>
+
+
+</fieldset>
+    
+ 
+
+<!-- Comandi -->
+<fieldset>
+<legend>Comandi</legend>
+<div class="control-group">
+	<div class="controls">
+	<button type="submit" class="btn btn-medium btn-primary" name="add">Aggiungi Azione</button>
+	<button type="submit" class="btn btn-medium btn-warning" name="cancel">Rinuncia ed esci</button>
+	</div>
+</div>
+</fieldset>
+
+
+<p>[view: formAzioneCreatePop.jsp 2020/12/07]</p> 
+</form:form>
+ 
+
+</div> <!-- div col -->
+</div> <!-- div row -->
+</div> <!-- div container -->
+
+
+<%@ include file= "/WEB-INF/views/common/bootstrap4_js.jsp" %>
+</body>
+
+</security:authorize>
+
+</html>

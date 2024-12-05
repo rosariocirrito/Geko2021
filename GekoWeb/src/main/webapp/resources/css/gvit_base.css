@@ -1,0 +1,858 @@
+html, body, div {
+	margin: 0;
+	padding: 0;
+	}
+
+p, blockquote, acronym, object, a, img,
+h1, h2, h3, h4, h5, h6,
+dl, dt, dd, ol, ul, li,
+table, caption, thead, tfoot, tbody, tr, th, td,
+form, fieldset, legend, label {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	text-align: left;
+	background-color: transparent;
+	color: #000;
+	}
+
+input, select, option, textarea {
+	vertical-align: baseline;
+	font-size: 100%;
+	font-family: "Lucida Grande", Verdana,  Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	text-align: left;
+	}
+
+#tdEmblema, #tdGovernoPresidenza, #tdGoverno, #tdPresidenza, #tdComodo {
+	font-size: 5px;
+	line-height: 1;
+	}
+
+#tdMetaNavigazione,  #tdContenuto, #tdNavigazione, #tdCoda {
+	font-size: 75%; 
+	line-height: 1.5; 
+	}
+
+#tdCorrelati, #tdStampabile {
+	
+	font-size: 92%;
+	} 
+
+/* Sfondi */
+
+#tblTestata { background: #fff url(/images/layout/sfondi/back_testata.jpg) right top repeat-x;}
+#tdNavigazione { background: #c7d5da url(/images/layout/sfondi/back_barraSX.jpg) right top repeat-x; }
+#tdCoda { background:#fff url(/images/layout/sfondi/back_footer.jpg) right top repeat-x; }
+	
+#dvPrimoPiano, #dvDataGiorno {background-color: #365778; color: #fff;}
+	
+#dvTitoloNotizieChigi {background: #008d46 url(/images/layout/c_archivio3.gif) no-repeat center right;}
+#dvTitoloNotizieMinisteri {background: #623c39  url(/images/layout/c_archivio5.gif) no-repeat center right;}
+
+#dvTitoloNotiziePresidenza {background: #d2232c url(/images/layout/c_archivio.gif) no-repeat center right;}
+#dvTitoloMultimedia {background: #b5b5b5 url(/images/layout/c_archivio4.gif) no-repeat center right;}
+#dvArchivioNotizieChigi, #dvArchivioNotizieMinisteri, #dvArchivioNotiziePresidenza, #dvArchivioMultimedia {background-color: #c6dae4;}
+
+/* Dimensionamento orizzontale della pagina */
+
+body {
+	text-align: center;
+	}
+
+#dvBody {
+	width: 100%; 
+	margin: 0 auto 0 auto; 
+	max-width: 54em; 
+	text-align: left; 
+	}
+
+
+#tdEmblema, #tdComodo, #tdNavigazione{
+	width: 180px; 
+	}
+	
+#tdMetaNavigazione, #tdDataGiorno, #tdFotoPrimoPiano, #tdDestra {
+	width: 234px;	
+	}
+
+#dvMetaNavigazione, #dvDataGiorno, .dvFotoPrimoPiano, #dvDestra {
+	padding-left: 18px;
+	}
+	
+#dvContenuto {
+	padding-left: 18px;
+	padding-bottom: 1.5em;
+	}
+
+#bodyStampa #dvContenuto {
+	padding-left: 18px;
+	padding-right: 18px;
+	padding-bottom: 1.5em;
+	}
+
+#tdTitoloNotizieChigi,  #tdTitoloNotizieMinisteri, #tdTitoloNotiziePresidenza, #tdTitoloMultimedia {width: 75%;}
+
+/* Dimensionamento verticale */
+
+h1, h2, h3, p, blockquote, ol, ul, form {
+	margin-bottom: 1.5em;
+	}
+h4, h5, h6 {
+	margin-bottom: 0.7em;
+	}
+	
+#bodyInterno #dvNavigazione {
+	margin-top: 18px;
+	}
+
+#dvCoda {
+	padding-top: 12px;
+	}
+
+
+/* Stili degli elementi */
+
+.invisibile {
+	position: absolute; 
+	overflow: hidden; 
+	top: -10000px; 
+	width: 1%; 
+	margin: 0; 
+	padding: 0;
+	} 
+
+/* Paragrafi, citazioni, link, immagini ecc. */
+
+#tdMetaNavigazione form p {
+	display: inline;
+	margin: 0;
+	} 
+
+#tdArchivioNotizieChigi p, #tdArchivioNotizieMinisteri p, #tdArchivioNotiziePresidenza p, #tdArchivioMultimedia p
+	{
+	text-align: right;
+	font-weight: bold;
+	font-size: 92%;
+	line-height: 1.63;
+	}
+
+#tdNotiziaPrimoPiano p, #tdNotizieChigi p, #tdNotizieMinisteri p, #tdNotiziePresidenza p, 
+.tdMultimediaNotizia p
+	{
+	margin-bottom: .75em;
+	}
+#dvDataGiorno p { 
+	text-align:center;
+	color: #fff;
+	}
+	
+#dvArchivioNotizieChigi p, #dvArchivioNotizieMinisteri p, #dvArchivioNotiziePresidenza p, #dvArchivioMultimedia  p {
+	padding-right: 3px;
+	}
+
+#bodyHome #tdDestra p { 
+	margin-bottom: 0;
+	}
+
+#bodyHome #tdDestra p.link {
+	clear: both;
+	margin-bottom: 0.5em;
+	font-size: 92%;
+	line-height: 1.63em;
+	}
+
+#tdCorrelati p, #tdStampabile p {
+	font-size: 92%;
+	padding-bottom:1em;} 
+
+#tdStampabile p, #dvPagine p { 
+	text-align: right;
+	margin: 0;}
+	
+#dvPagina p {
+	margin: 0;
+	}
+	
+blockquote {
+	border-top:0.08333em solid #f2f2f2;
+	border-right:0.08333em solid #f2f2f2;
+	border-bottom:0.08333em solid #f2f2f2;
+	border-left:0.08333em solid #f2f2f2;
+	background-color: #f8f8f8;
+	margin: 2.25em 1.5em;
+	padding: 0.667em;
+	}
+	
+.divnews {
+	border-top:0.08333em dotted #f2f2f2;
+	border-right:0.08333em dotted #f2f2f2;
+	border-bottom:0.08333em dotted #f2f2f2;
+	border-left:0.05333em dotted #f2f2f2;
+	background-color: #f8f8f8;
+	margin: 0.2em 1em 0.2em 0.1em;
+	padding: 0.400em;
+	}	
+	
+
+
+#tdMetaNavigazione acronym {
+	background-color: transparent;
+	color: #000;
+	font-weight: bold;
+	}
+
+.maiuscoletto {
+	font-variant: small-caps;
+	}
+
+
+/* Link  */
+
+a:link {color: #000; font-weight: bold; text-decoration: none;}
+a:visited {color: #000; font-weight: bold; text-decoration: none;}
+a:focus {color: #800001; font-weight: bold; text-decoration: underline;}
+a:hover {color: #800001; font-weight: bold; text-decoration: underline;}
+a:active {color: #800001; font-weight: bold; text-decoration: underline;}
+
+
+#tdContenuto a:link {color: #585858; font-weight: bold; text-decoration: none;}
+#tdContenuto a:visited {color: #585858; font-weight: bold; text-decoration: none;}
+#tdContenuto a:focus {color: #800001; font-weight: bold; text-decoration: underline;}
+#tdContenuto a:hover {color: #800001; font-weight: bold; text-decoration: underline;}
+#tdContenuto a:active {color: #800001; font-weight: bold; text-decoration: underline;}
+ 
+#dvTestaPagina a:link, .dvTesto a:link, .dvSecondoTesto a:link {text-decoration: underline;}
+#dvTestaPagina a:visited, .dvTesto a:visited, .dvSecondoTesto a:visited{text-decoration: 	underline;}
+
+#dvTestaPagina h1 a:link, #dvTestaPagina h2 a:link, #dvTestaPagina  h3 a:link, #dvTestaPagina  h4 a:link, #dvTestaPagina h5 a:link, #dvTestaPagina  h6 a:link  {text-decoration: none;}
+#dvTestaPagina  h1 a:visited, #dvTestaPagina  h2 a:visited, #dvTestaPagina h3 a:visited, #dvTestaPagina h4 a:visited, #dvTestaPagina h5 a:visited, #dvTestaPagina h6 a:visited {text-decoration: none;}
+#dvTestaPagina h1 a:focus, #dvTestaPagina h2 a:focus, #dvTestaPagina  h3 a:focus, #dvTestaPagina  h4 a:focus, #dvTestaPagina h5 a:focus, #dvTestaPagina  h6 a:focus  {text-decoration: underline;}
+#dvTestaPagina  h1 a:hover, #dvTestaPagina  h2 a:hover, #dvTestaPagina h3 a:hover, #dvTestaPagina h4 a:hover, #dvTestaPagina h5 a:hover, #dvTestaPagina h6 a:hover {text-decoration: underline;}
+#dvTestaPagina  h1 a:active, #dvTestaPagina  h2 a:active, #dvTestaPagina h3 a:active, #dvTestaPagina h4 a:active, #dvTestaPagina h5 a:active, #dvTestaPagina h6 a:active {text-decoration: underline;}
+
+
+.dvTesto h1 a:link, .dvTesto h2 a:link, .dvTesto  h3 a:link, .dvTesto  h4 a:link, .dvTesto h5 a:link, .dvTesto  h6 a:link  {text-decoration: none;}
+.dvTesto  h1 a:visited, .dvTesto  h2 a:visited, .dvTesto h3 a:visited, .dvTesto h4 a:visited, .dvTesto h5 a:visited, .dvTesto h6 a:visited {text-decoration: none;}
+.dvTesto h1 a:focus, .dvTesto h2 a:focus, .dvTesto  h3 a:focus, .dvTesto  h4 a:focus, .dvTesto h5 a:focus, .dvTesto  h6 a:focus  {text-decoration: underline;}
+.dvTesto  h1 a:hover, .dvTesto  h2 a:hover, .dvTesto h3 a:hover, .dvTesto h4 a:hover, .dvTesto h5 a:hover, .dvTesto h6 a:hover {text-decoration: underline;}
+.dvTesto  h1 a:active, .dvTesto  h2 a:active, .dvTesto h3 a:active, .dvTesto h4 a:active, .dvTesto h5 a:active, .dvTesto h6 a:active {text-decoration: underline;}
+
+.dvSecondoTesto h1 a:link, .dvSecondoTesto h2 a:link, .dvSecondoTesto  h3 a:link, .dvSecondoTesto  h4 a:link, .dvSecondoTesto h5 a:link, .dvSecondoTesto  h6 a:link  {text-decoration: none;}
+.dvSecondoTesto  h1 a:visited, .dvSecondoTesto  h2 a:visited, .dvSecondoTesto h3 a:visited, .dvSecondoTesto h4 a:visited, .dvSecondoTesto h5 a:visited, .dvSecondoTesto h6 a:visited {text-decoration: none;}
+.dvSecondoTesto h1 a:focus, .dvSecondoTesto h2 a:focus, .dvSecondoTesto  h3 a:focus, .dvSecondoTesto  h4 a:focus, .dvSecondoTesto h5 a:focus, .dvSecondoTesto  h6 a:focus  {text-decoration: underline;}
+.dvSecondoTesto  h1 a:hover, .dvSecondoTesto  h2 a:hover, .dvSecondoTesto h3 a:hover, .dvSecondoTesto h4 a:hover, .dvSecondoTesto h5 a:hover, .dvSecondoTesto h6 a:hover {text-decoration: underline;}
+.dvSecondoTesto  h1 a:active, .dvSecondoTesto  h2 a:active, .dvSecondoTesto h3 a:active, .dvSecondoTesto h4 a:active, .dvSecondoTesto h5 a:active, .dvSecondoTesto h6 a:active {text-decoration: underline;}
+
+/* #dvNotiziaPrimoPiano  h2 a:link, #tdNotizieMinisteri h2 a:link, #bodyHome #dvBoxDestra h2 a:link,
+#dvNotiziaPrimoPiano h2 a:visited, #tdNotizieMinisteri h2 a:visited, #bodyHome #dvBoxDestra h2 a:visited {
+color: #365778;} */
+
+#dvNotiziaPrimoPiano  h2 a:link, #dvNotiziaPrimoPiano h2 a:visited {color: #365778;} 
+
+#tdArchivioNotizieChigi a:link, 
+#dvArchivioNotizieMinisteri a:link, 
+#dvArchivioNotiziePresidenza a:link, 
+#dvArchivioMultimedia a:link,
+#tdArchivioNotizieChigi a:visited, 
+#dvArchivioNotizieMinisteri a:visited, 
+#dvArchivioNotiziePresidenza a:visited, 
+#dvArchivioMultimedia a:visited {
+color: #000;}
+
+
+/* Fine link */
+
+/* Immagini */
+
+#tdPresidenza {
+	text-align: center;
+	}
+	
+#tdPresidenza img {
+	vertical-align: bottom;
+	}
+	
+.dvFotoPrimoPiano, .dvFotoEvidenza, .dvImmagineColonnaDestra {
+	margin-bottom: 14px; 
+	text-align: center;
+	}
+
+.dvFotoEvidenza {
+	margin-bottom: 6px; 
+	text-align: center;
+	}
+	
+#dvFotoPresidente {
+	margin-top: 18px;
+	margin-bottom: 14px; 
+	}
+	
+
+
+/* Intestazioni */
+
+
+h1, h3, #bodyInterno #dvDestra h2{
+	padding-left: 18px;
+	font-weight: bold;
+	}
+h4{font-weight: bold; font-style:italic;}
+	
+h2 {font-weight: bold;	}
+	
+h1 {background: transparent  url(/images/layout/c_led2.gif) no-repeat 6px 6px;}
+
+	
+#dvPrimoPiano h1, #dvTitoloNotizieChigi h1, #dvTitoloNotizieMinisteri h1,  #dvTitoloNotiziePresidenza h1 {
+	background: transparent  url(/images/layout/c_led1.gif) no-repeat 6px 6px;
+	color: #fff;
+	}
+
+#bodyHome #dvDestra h1 {background-color: #c6dae4;}
+
+#dvTestaPagina h1 {background: #e5e5e7  url(/images/layout/icone/icon7.gif) no-repeat 4px 4px;}
+
+#dvNotiziaPrimoPiano h2 {
+	font-size: 1.2em;
+	margin-bottom: .75em;
+	}
+
+#bodyHome #tdDestra h2 {
+	margin-bottom: 6px;
+	}	
+	
+#bodyInterno #dvDestra h2, #bodyInterno #dvDestra h3 {
+	background: #e5e5e7  url(/images/layout/icone/icon7.gif) no-repeat 4px 4px;
+	}
+
+#tdCentrale h2 {color:#365778 }
+
+#bodyHome #tdNavigazione h2 {
+margin-bottom: 1em;
+	}
+
+#tdNavigazione h2 {
+	font-weight: bold; 
+	background: #85b4c4 url(/images/layout/icone/icon6.gif)  no-repeat 5px 4px;
+	padding-left: 19px;
+	}
+
+#tdNavigazione h2#presidente {
+	background: transparent url(/images/layout/icone/icon5.png) no-repeat 0 5px;
+	padding-left: 14px;
+	margin-left: 9px;
+	}
+
+
+
+
+/* Liste  */
+
+ol, ul {
+	list-style: none;
+	}
+	
+ul {
+	margin-left: 9px;
+	}
+
+#tdDestra ul {
+	margin-left: 9px;
+	}
+
+#tdNavigazione ul {
+	margin-left: 9px;
+	margin-right: 2px;
+	}
+	
+		
+		
+ul li {
+	background: transparent url(/images/layout/icone/icon5.png)  0 5px no-repeat;
+	padding-left: 18px;
+	}
+	
+ul ul, ul ol, ol ul, ol ol {
+	margin-bottom: 0;
+	}
+
+
+ul ul li {
+	list-style: square;
+	background: none;
+	padding-left: 0;
+	margin-left: 6px;
+	}
+
+ul ul ul li {
+	list-style: disc;
+	background: none;
+	}
+	
+ol {
+	margin-left: 30px;
+	}
+
+ol ol {
+	margin-left: 18px;}
+
+	
+ol li {
+	list-style: decimal;
+	}
+
+ol li ol li {
+	list-style:decimal;
+	}
+
+ol li ol li ol li {
+	list-style:decimal;
+	}
+
+ol li ul li {
+	list-style-type: square;
+	background: none;
+	margin-left: 6px;
+	padding-left: 0;
+	}
+	
+ol li ul li ul li{
+	list-style-type: disc;
+	background: none;
+	}
+
+dl  {
+	margin-left: 9px;
+	margin-bottom: 1.5em;
+	}
+						
+dt  {
+	background: transparent url(/images/layout/icone/icon5.png) no-repeat 0 5px;
+	padding-left: 18px;
+	color: #000;
+	font-weight: bolder;
+	}			
+				
+dd  {
+	border-bottom:0.08333em dashed #585858;
+	margin: 0 0 2.25em 18px;
+	padding: 0 0 0.667em 0;
+	}
+
+
+#tdMetaNavigazione ul {
+	margin-left: 0;
+	margin-bottom: 0;
+	}
+
+
+
+ul.listaOrizzontale li {
+	background: none;
+	display: inline;
+	margin: 0;
+	padding: 0 12px 0 0;
+	}
+
+ul.listaOrizzontale p, ul.listaOrizzontale form, ul.listaOrizzontale fieldset, ul.listaOrizzontale label {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	} 
+
+
+#tdCoda ul.listaOrizzontale {
+	text-align: center;
+	}
+
+
+ol.elencoA li {
+	list-style:lower-alpha;
+	}
+
+ol.listaNorma li {
+	list-style: decimal;
+	}
+
+ol.listaNorma  li ol li {
+	list-style:lower-alpha;
+	}
+
+ol.listaNorma  li ol li ol li {
+	list-style:lower-roman;
+	}
+
+
+/* Tabelle */
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	}
+
+caption {	
+	padding-bottom: 1.5em;
+	text-align: left;
+	font-weight: bolder;
+	color: #353535;
+	}
+
+th, td {
+	vertical-align: top;
+	}
+
+
+
+#trPrimaGrigia th, #trPrimaGrigia td {
+		background-color: #E6E6E6;
+        color: #000;
+		}
+						 
+#trPrimaCeleste th, #trPrimaCeleste td {background-color: #E6E6E6;
+                 color: #000;}
+
+.trGrigioScuro th, .trGrigioScuro td {background-color: #F2F2F2;
+             color: #000;}
+						 
+.trGrigioChiaro th, .trGrigioChiaro td {background-color: #F8F8F8;
+             color: #000;}
+			 
+.trVerdeChiaro th, .trVerdeChiaro td {background-color: #C0FFC0;
+             color: #000;}
+			 
+.trRosa th, .trRosa td {background-color: #F7E6D5;
+          color: #000;}	 
+						 
+.trCelesteScuro th, .trCelesteScuro td {background-color: #F2F2F2;
+							  color: #000;}
+						 
+.trCelesteChiaro th, .trCelesteChiaro td {background-color: #F8F8F8;
+							  color: #000;}
+								
+.tblGrigia th {border-top: 1px solid #FFF; padding: 3px; font-weight: bold;}			
+				
+.tblGrigia td {border-top: 1px solid #FFF; padding: 3px;}	
+
+#trPrimaGrigia th {border-top: 1px solid #FFF;}							
+								
+.tblCeleste td {border-top: 1px solid #FFF; padding: 3px;}
+
+.tblCeleste th {border-top: 1px solid #FFF; padding: 3px;}
+
+#trPrimaCeleste th {border-top: 1px solid #FFF;}
+
+.trRigaCeleste th, .trRigaCeleste td {background-color: #E6E6E6; color: #000;} /* riga generica interna anche ad altre tabelle */
+
+.tdDatiCoda {text-align: left;  padding: 0;} /* serve per dare lo spessore alla riga di coda che non contiene testo */
+						 
+.dvDatiCoda {font-size: 5px; width: 100%;} 
+
+
+.tdGiustificato {text-align: justify;}
+				 
+.tdASinistra { text-align: left;}
+
+.tdFonte { text-align: left;}
+				 
+.tdADestra {text-align: right;}
+				 
+.tdCentrato {text-align: center;}
+	 													
+.tdLink {text-align: right; vertical-align: bottom;} /* posizionamento della immagine a tre caratteri */ 
+														
+.thLink {padding: .3em;} /* per la intestazione della colonna dei link */
+							
+/* Paginazione */
+								
+#tdPagina {text-align: left;
+		   font-size: 92%;
+		   padding: 18px 0;
+		   }
+							
+#dvPagina { border-top: 1px solid #E6E6E6;
+			border-bottom: 1px solid #E6E6E6;}
+							  
+#tdPagine {text-align: right;
+			font-size: 92%;
+			padding: 18px 0;}
+			
+#dvPagine {	border-top: 1px solid #E6E6E6;
+			border-bottom: 1px solid #E6E6E6;}
+
+
+/* Moduli (Form) */
+
+
+#tdMetaNavigazione form {
+	margin: 0;
+	}
+
+#tdMetaNavigazione label {
+	background-color: transparent;
+	color: #000;
+	font-weight: bold;
+	cursor: pointer;
+	}
+
+#tdMetaNavigazione input {
+	background: transparent;
+	color: #365778;
+	border: 1px solid #365778;
+	}
+.submit {background: transparent;
+	color: #365778;
+	border: 1px solid #365778;
+	text-align: center;
+	}
+
+
+
+/* Form per ricerca archivio tipo anno-mese */
+	
+		 
+
+form#ricercaAnnoMese fieldset {
+	text-align: center; 
+	border: 1px solid #EAE1CE; 
+	margin: 0; 
+	padding: 0 0 16px 17px;
+	}
+
+
+
+form#ricercaAnnoMese label  {
+	margin: 0 9px 0 18px;
+	padding: 0;
+	font-size: 100%;
+	font-weight: normal;
+	text-align: left;	
+	}
+				
+form#ricercaAnnoMese input {
+	margin: 0 0 0 18px;
+	padding: 0;
+	font-size: 100%;
+	font-weight: normal;
+	text-align: left;	
+	}
+	
+form#sendForm  {
+	margin: 2.25em 1.5em;
+	padding: 0.667em;
+	border-top:0.08333em solid #f2f2f2;
+	border-right:0.08333em solid #f2f2f2;
+	border-bottom:0.08333em solid #f2f2f2;
+	border-left:0.08333em solid #f2f2f2;
+	background-color: #f8f8f8;
+}
+form#sendForm fieldset {
+	margin: 20px 0;
+	padding: 0px 10px;
+	background-color:#f8f8f8;
+	border: 3px double #878177;	
+}
+form#sendForm legend {
+	padding: 2px 5px;
+	color: #1C1C1C;
+	background-color: #FFD;
+	border: 1px solid #878177; 
+}
+
+form#sendForm label { font-weight:bold; }
+form#sendForm input,
+form#sendForm textarea { padding:0.2em; width:80%; border:1px solid #878177; background-color:#FFFFFF;}
+form#sendForm input#submitForm {width:6.0em; border:1px solid #878177; background-color:#C4C0BC; text-align:center; font-weight:bold;}
+
+/* Elementi floating */
+
+.dvNotiziaPrincipale {
+	float: left;
+	padding: 0;
+	margin-bottom: 0.5em;
+	border-bottom: 1px solid #e0e0e0;
+	width: 100%;
+	overflow: auto;
+	}
+td#tdNotiziePresidenza .dvNotiziaPrincipale { border-bottom:0;}
+	
+
+.dvNotiziaPrincipale img {
+	float: left;
+	margin: 0 6px 0 0;
+	}
+
+#bodyHome #tdCentrale .dvNotiziaPrincipale h2 {
+	margin-bottom: 0;
+	}
+
+#bodyHome #tdCentrale .dvNotiziaPrincipale p {
+	margin-bottom: 0.5em;
+	}
+
+#bodyHome #tdCentrale .dvNotiziaPrincipale ul {
+	margin-bottom: 0.5em;
+	}
+	
+#dvNotizieMinisteri {
+	clear: left;
+	}
+
+
+
+.dvMultimediaNotizia img {
+	float: left;
+	margin: 0 6px 0 0;
+	}
+
+/* I Banner hanno sfondi di colore diverso. Se si aggiunge un Banner ricordarsi di aggiungere anche la regola BannerX img */
+
+.dvFloat {
+	float: left;
+	width: 100%;
+	margin-bottom: 6px;
+	overflow: auto;
+	}
+
+p.Banner1 {
+	clear: left;
+	float: left;
+	width: 97%;
+	 background-color: #FAF8D6;
+	 color: #353535;
+	 border: #DBCE13 1px solid; 
+	 padding: 2px 1px; 
+	 margin: 0.25em 0 0.25em 0;
+	 font-size: 92%;
+	 line-height: 1.3;	 
+	 }
+
+p.Banner4 {
+	clear: left;
+	float: left;
+	width: 97%;
+	background-color: #E9EFF2;
+	color: #353535;	
+	border: #8DC1D5 1px solid; 
+	padding: 2px 1px; 
+	margin: 0.25em 0 0.25em 0;
+	font-size: 92%;
+	line-height: 1.3;
+	}
+
+
+p.Banner3 {
+	clear: left;
+	float: left;
+	width: 97%;
+	background-color: #FBEDC9;
+	color: #353535;	
+	border: #E7BE52 1px solid; 
+	padding: 2px 1px; 
+	margin: 0.25em 0 0.25em 0;
+	font-size: 92%;
+	line-height: 1.3;
+	}
+
+
+p.Banner2 {
+	clear: left;
+	float: left;
+	width: 97%;
+	background-color: #E8F2D6;
+	color: #353535;	
+	border: #95AE67 1px solid; 
+	padding: 2px 1px; 
+	margin: 0.25em 0 0.25em 0;
+	font-size: 92%;
+	line-height: 1.3;	
+	}
+
+
+p.Banner1 img, p.Banner2 img, p.Banner3 img,  p.Banner4 img { 
+	margin-right: 0.6em;	
+	float: left;
+	}
+	
+#bodyHome p.Banner1 a:link, #bodyHome p.Banner2 a:link, #bodyHome p.Banner3 a:link, #bodyHome p.Banner4 a:link {color: #000;}
+#bodyHome p.Banner1 a:visited, #bodyHome p.Banner2 a:visited, #bodyHome p.Banner3 a:visited, #bodyHome p.Banner4 a:visited {color: #000;}
+#bodyHome p.Banner1 a:focus, #bodyHome p.Banner2 a:focus, #bodyHome p.Banner3 a:focus, #bodyHome p.Banner4 a:focus {color: #800001;}
+#bodyHome p.Banner1 a:hover, #bodyHome p.Banner2 a:hover, #bodyHome p.Banner3 a:hover, #bodyHome p.Banner4 a:hover  {color: #800001;}
+#bodyHome p.Banner1 a:active, #bodyHome p.Banner2 a:active, #bodyHome p.Banner3 a:active, #bodyHome p.Banner4 a:active  {color: #800001; }
+
+
+/* Aggiustamenti per IE */
+
+
+* html ol ol {
+	margin-left: 24px;
+	}
+
+* html #bodyInterno #dvNavigazione {
+	margin-top: 15px;
+	}
+
+*:first-child+html ol ol {
+	margin-left: 24px;
+	}
+
+	
+*:first-child+html #bodyInterno #dvNavigazione {
+	margin-top: 15px;
+	}
+	
+	
+	
+/* OLD */
+
+/* Sfondi 
+
+#tblTestata { background: #fff url(/images/layout/sfondi/back_testata.jpg) right top repeat-x;}
+
+#tdNavigazione { background: #A6C2CE url(/images/layout/sfondi/back_barraSX.jpg) right top repeat-x; }
+
+#tdCoda { background:#fff url(/images/layout/sfondi/back_footer.jpg) right top repeat-x; }
+	
+#dvPrimoPiano, #dvDataGiorno {
+	background-color: #365778;
+	color: #fff;
+	}
+	
+#dvTitoloNotizieChigi {background: #008d46 url(/images/layout/c_archivio3.gif) no-repeat center right;}
+
+#dvTitoloNotizieMinisteri {background: #d2232c url(/images/layout/c_archivio.gif) no-repeat center right;}
+
+#dvTitoloMultimedia {background: #b5b5b5 url(/images/layout/c_archivio4.gif) no-repeat center right;}
+
+#dvArchivioNotizieChigi, #dvArchivioNotizieMinisteri, #dvArchivioMultimedia {background-color: #c6dae4;}
+
+		*/
+/* Classi di uso comune */
+
+.fright {float: right; margin-left: .75em;}
+
+.fleft {float: left; margin-right: .75em;}
+
+.clear {clear: both;}
+						 
+.centrato {text-align: center;}			
+
+.sinistra {text-align: left;}	
+
+.destra {text-align: right;}
+
+.normale {text-align: left;}
+
+.rientrodestro {padding-left: 1em;}
+
+.floatdx {float: right;}	
+
+.floatsx 
+{float: left;
+ margin: 0 .5em 0 0; }
+ 
+ #pData	{text-align: right;}

@@ -1,0 +1,33 @@
+1488873556318	Rename resource 'WEB-INF'
+1488874274616	Rename resource 'hello.jsp'
+1488875384649	Move folder
+1488875393784	Delete element
+1488875399431	Delete element
+1488876272273	Move elements
+1488876437242	Delete element
+1488876544371	Rename resource 'jsp'
+1488878964906	Delete element
+1488885082714	Rename type 'SecurityConfig'
+1488886972532	Delete element
+1488887041622	Move compilation units
+1488887049746	Delete element
+1488887122553	Move compilation units
+1488887134125	Delete element
+1488887638756	Rename type 'SecurityConfiguration'
+1488887690338	Copy compilation unit
+1488888479166	Delete element
+1488983626883	Copy file
+1489132378473	Rename type 'User'
+1489132404966	Rename type 'Authority'
+1489132430113	Rename type 'AuthorityType'
+1489132643365	Move compilation units
+1489132650760	Delete element
+1489134789820	Copy compilation unit
+1489134830598	Rename type 'AuthorityService'
+1489134868678	Copy compilation unit
+1489134883124	Rename type 'AuthorityServiceImpl'
+1489139432806	Delete element
+1489139439108	Delete element
+1489139593751	Move compilation unit
+1489139602721	Delete element
+1489139647977	Rename package 'it.sicilia.regione.gekoddd.session.config'

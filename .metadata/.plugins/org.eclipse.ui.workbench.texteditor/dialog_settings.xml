@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="isRegEx" value="false"/>
+		<item key="selection" value="generaSchedeDettaglioObiettiviApicali"/>
+		<item key="casesensitive" value="true"/>
+		<item key="incremental" value="false"/>
+		<item key="wrap" value="true"/>
+		<item key="wholeword" value="false"/>
+		<list key="findhistory">
+			<item value="generaSchedeDettaglioObiettiviApicali"/>
+			<item value="clona"/>
+			<item value="Manager&quot;"/>
+			<item value="/manager/"/>
+			<item value="ROLE_MANAGER"/>
+			<item value=".manager"/>
+			<item value="managerServizi"/>
+			<item value="programmazione/manager/"/>
+			<item value="cmdManager"/>
+			<item value="dirigente"/>
+			<item value="dirigenteAct"/>
+			<item value="dirigenteObj"/>
+			<item value="Manager"/>
+			<item value="MANAGER"/>
+			<item value="generaSchedaObiettivi"/>
+		</list>
+		<list key="replacehistory">
+			<item value="Pop&quot;"/>
+			<item value="/resppop/"/>
+			<item value="ROLE_RESP_POP"/>
+			<item value=".pop"/>
+			<item value="resppopServizi"/>
+			<item value="programmazione/resppop/"/>
+			<item value="cmdPop"/>
+			<item value="resppop"/>
+			<item value="respPopServizi"/>
+			<item value="resppopAct"/>
+			<item value="resppopObj"/>
+			<item value="Pop"/>
+			<item value="RespPop"/>
+			<item value="RESP_POP"/>
+			<item value="DIRIGENZIALE"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_WIDTH" value="284"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<item key="DIALOG_HEIGHT" value="324"/>
+		<item key="DIALOG_X_ORIGIN" value="956"/>
+		<item key="DIALOG_Y_ORIGIN" value="270"/>
+	</section>
+</section>

@@ -1,0 +1,17 @@
+eclipse.preferences.version=1
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.data-jpa=7
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.jdbc=1
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.mysql=7
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.thymeleaf=3
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.web=8
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.artifactId=gekoWeb
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.bootVersion=2.0.0.BUILD-SNAPSHOT
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.description=prima versione che utilizza Spring Boot
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.groupId=it.sicilia.regione
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.javaVersion=1.8
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.language=java
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.name=GekoWeb
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packageName=it.sicilia.regione.gekoddd
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packaging=jar
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.type=MAVEN
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.version=17.1.1
